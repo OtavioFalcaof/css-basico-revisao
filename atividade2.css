@@ -1,0 +1,20 @@
+h1 {
+    text-align: right;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  tr td:first-child {
+    color:  #3a79cc
+  }
+  
+  tr td:last-child {
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
